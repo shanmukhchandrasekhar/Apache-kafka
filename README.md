@@ -20,6 +20,6 @@ Message are simple byte arrays, and any object can be stored in any format bydev
 ## Topic:
 In apache kafka, all messages are maintained in what we call topics. Messages are stored, published, and organized in kafka topics.
 
-##Cluster:
+## Cluster:
 In kafka more thann one broker i.e.; a set of servers is collectively known as kafka cluster. It is a group of computers, each having one instance of a kafka broker.
 
