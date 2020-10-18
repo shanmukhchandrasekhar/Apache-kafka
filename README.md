@@ -71,7 +71,11 @@ A sequence id given to messages as they arrive in a partition.
 
 * Partitions provide redundency and scalability. They can be hosted an a different server i.e.; a single topic can be scaled horizantally across multiple servers, thus enhancing performance.
 
-## 
+## Kafka Consumer:
+
+* The consumer can subscribe to one or more topics and read messages in the order they were produced. The consumer keeps track of the offset of messages. Consumers work as part of a consumer group i.e.; one or more consumers that work together to consume topic.
+
+# Zookeeper
 
 
 
