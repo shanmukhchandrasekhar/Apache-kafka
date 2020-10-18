@@ -10,6 +10,11 @@ Apache kafka is a distributed sreaming platform similar to message queue or eter
 
 4.If we just plugin some stram processinf framework to kafka this will help to create stram processing application.
 
+# Need of kafka
+
+![need](https://user-images.githubusercontent.com/38941778/96377960-9cedb700-11a6-11eb-9ed4-b463e4dd7203.JPG)
+
+
 # kafka terminology
 ## Broker: 
 Kafka brokers are the severs that manage nd mediate the conversation between two differemt systems. Brokers are responsible for the delivery of right messages to the right party.
