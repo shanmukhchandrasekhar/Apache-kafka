@@ -19,7 +19,24 @@ Message are simple byte arrays, and any object can be stored in any format bydev
 
 ## Topic:
 In apache kafka, all messages are maintained in what we call topics. Messages are stored, published, and organized in kafka topics.
+
 ## Cluster:
-In kafka more thann one broker i.e.; a set of servers is collectively known as kafka cluster. It is a group of computers, each having one instance of a kafka broker.
+In kafka more than one broker i.e.; a set of servers is collectively known as kafka cluster. It is a group of computers, each having one instance of a kafka broker.
+
+## Producers:
+Producers are the process that publish data or messages to one or more topics. They are basically the source of data stream in kafka
+
+## Consumers:
+Consumers are the proces that read and process the data from topics by subscribing to one or more topics in the kafka cluster.
+
+## Partitions:
+Every broker holds few partitions can be eaither a leader or a replica for a topic. All writes and reads to a topic go via the leader which is responsible  for the updating replicas with new data. The leader fails, one of the replica takes  voer as the new leader.
+
+## Offset:
+
+![Offset](https://user-images.githubusercontent.com/38941778/96377495-aa557200-11a3-11eb-9559-9ccebd5becd7.png)
+
+A sequence id given to messages as they arrive in a partition.
+
 
 
