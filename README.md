@@ -77,8 +77,18 @@ A sequence id given to messages as they arrive in a partition.
 
 # Zookeeper
 
+* Zookeeper comes in whenever we are working with any sory of distributed applications like kafka. With the help of apache zookeeper we can identify which brockers are present in our cluster currently and which producer is sending what messages to broker currently.
 
+* Kafka brokers coordinate with eack other using zookeeper. Producers and consumers are notified by the zookeeper service about the presence of a new broker in the system .
 
+* If the leader node fails, then basis of the currently nodes zookeper will elect the new leader. zookeeper in kafka keeps a set of in-sync replicas.
 
+# Installation of kafka 
 
+https://www.apache.org/dyn/closer.cgi?path=/kafka/2.6.0/kafka_2.13-2.6.0.tgz
 
+## Kafka commands:
+
+...kbdkhgkjsg
+
+.sgsghhfhdgh
