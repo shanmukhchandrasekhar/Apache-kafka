@@ -50,6 +50,23 @@ Every broker holds few partitions can be eaither a leader or a replica for a top
 
 A sequence id given to messages as they arrive in a partition.
 
+# Kafka internal flow
+
+![internal flow arch](https://user-images.githubusercontent.com/38941778/96379108-dc1f0680-11ac-11eb-9444-fd5eeb69434a.png)
+
+## Kafka Producer:
+* Producers can send records to topicsa and select teh partition to send the message per topic. They can implement priority systems whcich are based on sending records to certain partitions depending pripority of the record.
+
+* Producers don't wait for acknowledgement from a broker and send messages as fast as the broker can handle.
+
+## Kafka broker:
+* A cluster typically consists of multiple brokers to maintain the load balence. A broker on receving messages from the producer assigns offsets to them and commits the messages to the storage on the disk. 
+
+* One broker instance can handle thousands of reads-writes per second and TBs of messages, backups of topic partitions are present in multiple brokers. If a broker goes down, one of the broker partition would be elected as the leader for the respective partitions.
+
+## Kafka Topics and Partitions:
+*
+
 
 
 
