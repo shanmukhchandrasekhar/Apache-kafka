@@ -105,7 +105,7 @@ To receive messages: .\bin\windows\kafka-console-consumer.bat --bootstrap-server
  
  * Dependency:
   
-  <dependency>
+                 <dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
