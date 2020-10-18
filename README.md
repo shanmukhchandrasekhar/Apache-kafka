@@ -14,13 +14,13 @@ Apache kafka is a distributed sreaming platform similar to message queue or eter
 
 ![need](https://user-images.githubusercontent.com/38941778/96377960-9cedb700-11a6-11eb-9ed4-b463e4dd7203.JPG)
 
-* In the above scenario all the data pipe line are getting complex with the increase in the number of systems. Adding a new server requires more data pipelines which will make data flow more complicated and managing these data pipelines becomes very difficult.
+* In this scenario all the data pipe line are getting complex with the increase in the number of systems. Adding a new server requires more data pipelines which will make data flow more complicated and managing these data pipelines becomes very difficult.
 
 ## Kafka decouples data pipelines:
 
 ![need 1JPG](https://user-images.githubusercontent.com/38941778/96378173-dffc5a00-11a7-11eb-8c1a-c5a159e3b561.JPG)
 
-* Kafka decouples all of the data pipelines. Producers which produces all of the messages or generate all of the data is stored in the form of a stream in the kafka cluster. From the kafka cluster consumer consumes all of the data. In this number of pipelines are decreased.
+* Kafka decouples all of the data pipelines. Producers which produces all of the messages or generate all of the data is stored in the form of a stream in the kafka cluster. From the kafka cluster consumer consumes all of the data. In this number scenario of pipelines are decreased.
 
 # kafka terminology
 ## Broker: 
