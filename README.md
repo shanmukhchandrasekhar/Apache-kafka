@@ -8,7 +8,7 @@ Apache kafka is a distributed sreaming platform similar to message queue or eter
 
 3.Stream processors process the data and store in kafka or they will send to some other systems like spark, strom
 
-4.if we just plugin some stram processinf framework to kafka this will help to create stram processing application.
+4.If we just plugin some stram processinf framework to kafka this will help to create stram processing application.
 
 # kafka terminology
 ## Broker: 
@@ -37,6 +37,10 @@ Every broker holds few partitions can be eaither a leader or a replica for a top
 ![offset1](https://user-images.githubusercontent.com/38941778/96377592-336ca900-11a4-11eb-927a-0a85a5e871cb.JPG)
 
 A sequence id given to messages as they arrive in a partition.
+
+
+
+
 
 
 
