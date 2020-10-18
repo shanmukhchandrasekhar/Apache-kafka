@@ -27,7 +27,7 @@ Apache kafka is a distributed sreaming platform similar to message queue or eter
 Kafka brokers are the severs that manage nd mediate the conversation between two differemt systems. Brokers are responsible for the delivery of right messages to the right party.
 
 ## Message:
-Message are simple byte arrays, and any object can be stored in any format bydevelopers. The format can be dtring, JSON, Avro, etc...
+Message are simple byte arrays, and any object can be stored in any format bydevelopers. The format can be string, JSON, Avro, etc...
 
 ## Topic:
 In apache kafka, all messages are maintained in what we call topics. Messages are stored, published, and organized in kafka topics.
@@ -65,8 +65,13 @@ A sequence id given to messages as they arrive in a partition.
 * One broker instance can handle thousands of reads-writes per second and TBs of messages, backups of topic partitions are present in multiple brokers. If a broker goes down, one of the broker partition would be elected as the leader for the respective partitions.
 
 ## Kafka Topics and Partitions:
-*
+* Messages in kafka are catagorized into topics. These are broken down into number of partitions. Messages are written to it in an appened-only fashion.
 
+* Reading messages an eaither be done in the order from begining to end or skip or rewined to any point in the partition by providing an offset value. An offset value is the sequential ID provided to messages. 
+
+* Partitions provide redundency and scalability. They can be hosted an a different server i.e.; a single topic can be scaled horizantally across multiple servers, thus enhancing performance.
+
+## 
 
 
 
