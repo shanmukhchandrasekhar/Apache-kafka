@@ -11,4 +11,15 @@ Apache kafka is a distributed sreaming platform similar to message queue or eter
 4.if we just plugin some stram processinf framework to kafka this will help to create stram processing application.
 
 # kafka terminology
+## Broker: 
+Kafka brokers are the severs that manage nd mediate the conversation between two differemt systems. Brokers are responsible for the delivery of right messages to the right party.
+
+## Message:
+Message are simple byte arrays, and any object can be stored in any format bydevelopers. The format can be dtring, JSON, Avro, etc...
+
+## Topic:
+In apache kafka, all messages are maintained in what we call topics. Messages are stored, published, and organized in kafka topics.
+
+##Cluster:
+In kafka more thann one broker i.e.; a set of servers is collectively known as kafka cluster. It is a group of computers, each having one instance of a kafka broker.
 
