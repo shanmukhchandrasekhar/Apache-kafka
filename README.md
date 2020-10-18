@@ -34,7 +34,7 @@ Every broker holds few partitions can be eaither a leader or a replica for a top
 
 ## Offset:
 
-![Offset](https://user-images.githubusercontent.com/38941778/96377495-aa557200-11a3-11eb-9559-9ccebd5becd7.png)
+![offset1](https://user-images.githubusercontent.com/38941778/96377592-336ca900-11a4-11eb-927a-0a85a5e871cb.JPG)
 
 A sequence id given to messages as they arrive in a partition.
 
