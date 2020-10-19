@@ -24,7 +24,7 @@ Apache kafka is a distributed sreaming platform similar to message queue or eter
 
 # kafka terminology
 ## Broker: 
-Kafka brokers are the severs that manage nd mediate the conversation between two differemt systems. Brokers are responsible for the delivery of right messages to the right party.
+Kafka brokers are the severs that manage and mediate the conversation between two differemt systems. Brokers are responsible for the delivery of right messages to the right party.
 
 ## Message:
 Message are simple byte arrays, and any object can be stored in any format bydevelopers. The format can be string, JSON, Avro, etc...
@@ -89,7 +89,7 @@ https://www.apache.org/dyn/closer.cgi?path=/kafka/2.6.0/kafka_2.13-2.6.0.tgz
 
 ## Kafka commands:
 
- To start zookeeper: .\bin\windoes/zookeeper-server--start.bat .\config\zookeeper.properties
+ To start zookeeper: .\bin\windoes/zookeeper-server-start.bat .\config\zookeeper.properties
 
 To start kafka: .\bin\windows\kafka-server-start.bat .\config\server.properties
 
