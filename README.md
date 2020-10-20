@@ -89,17 +89,17 @@ https://www.apache.org/dyn/closer.cgi?path=/kafka/2.6.0/kafka_2.13-2.6.0.tgz
 
 ## Kafka commands:
 
- To start zookeeper: .\bin\windoes/zookeeper-server-start.bat .\config\zookeeper.properties
+ To start zookeeper: .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
 To start kafka: .\bin\windows\kafka-server-start.bat .\config\server.properties
 
-To create a topic: .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic <topic name>
+To create a topic: .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topic name
   
 To see list of topics: .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
 
-To send messages: .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic <topic name>
+To send messages: .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic topic name
 
-To receive messages: .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic <topic name> --from-begining
+To receive messages: .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic name --from-begining
  
  # Kafka + Spring Boot
  
