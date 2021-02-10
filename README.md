@@ -99,7 +99,7 @@ To see list of topics: .\bin\windows\kafka-topics.bat --list --zookeeper localho
 
 To send messages: .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic topic name
 
-To receive messages: .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic name --from-begining
+To receive messages: .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic name --from-beginning
  
  # Kafka + Spring Boot
  
